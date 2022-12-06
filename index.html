@@ -1,0 +1,166 @@
+<!--                                                                                                  -->
+<!--              Figma Capstone Project HTML code December 2022 Author: M.Foster                     -->
+<!--                                                                                                  -->
+<!--                                                                                                  -->
+<!--                                                                                                  -->
+<!--     Document being created has 4 main sections, header, section 1, section 2, footer             -->
+<!--     These sections have been specified in overall structure by a Figma document                  -->
+<!--     produced by the PurpleBeard training organisation. The site is to be responsive              -->
+<!--     with a mobile first approach                                                                 -->
+<!--                                                                                                  -->
+<!--                                                                                                  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakebook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+
+</head>
+<body>
+
+ <!-- create a structure representing the semantic page layout of the Figma specification              -->
+ <!-- these are:- header,section,section,footer                                                        -->
+
+<!--                                                                                                   -->  
+<!--    First section is the header, a basic entry screen                                              -->
+<!--                                                                                                   -->
+
+ <header id="Page-header">
+
+   <div id="header-flexbox">
+
+    <!-- page top title  -->
+
+    <div id="div-main-title">
+       <nav>
+          <span id="Main-Title">Fakebook</span>
+       </nav>
+    </div>
+
+    <!-- page main headline and text invite statement -->
+
+    <div id="header-text-block">
+      <div id="div-main-heading">
+        <h1 id="Main-heading">Connecting the world</h1>
+      </div>
+      <div id="div-header-text">
+        <p id="header-text">A next-gen social networking service, empowering the user, making universal connectivity both uninstrusive and immersive.        </p>
+      </div>
+    </div>
+    
+    <!-- get started page button style logo -->
+
+    <div id="Start-div">
+      <span id="Start-button">get started</span>
+    </div>
+
+    <!--  this image will only be shown at 992px min screen-width -->
+
+    <div id="RC-geek-image">
+      <img id="geek-cartoon" src="./assets/header-img_crop.png" alt="RC-geek" />
+     
+    </div>
+
+  </div>
+
+ </header>
+ 
+<!--                                                                                -->  
+<!-- Second section of page contains main phone image and marketing information     -->
+<!--                                                                                -->
+
+ <section id="section-one">
+    <div id="s1-flexbox">    <!-- flexbox container for use when changing screen resolution  -->
+
+      <!-- image to display plus a header and info text -->
+      
+      <div id="mobile-image">
+         <img  id="mobile-image" src="./assets/phone-mockup.png" alt="Mobile Phone Image" />
+      </div>
+       
+      <div id="section-one-content">
+          <h2 id="rainbow-title">Focused on<span id="red-text">Social</span><span id="green-text">Integrity</span></h2>
+          <p id="section-one-text">Avoiding the sharing functionality, you can focus on showcasing your best self without hesitation.</p>
+      </div>
+
+    </div>
+ </section>
+
+
+<!--                                                                                               -->  
+<!-- Second section of page contains several sub-articles outlining organisations principles       -->
+<!--                                                                                               -->
+
+ <section id="section-two">
+
+    <div id="s2-title">
+     <h2 id="s2-heading">Say Hello to an Open platform</h2>
+    </div> 
+
+       <div id="s2-flexbox">    <!-- flexbox container for use when screen resolution changes      -->
+
+        <div id="s2-div1">      <!-- three basic articles for display with graphic icons           -->
+          <article id="s2-article1">
+            <img id="uni-icon" src="./assets/Vector1.png" alt="unity" />        
+            <h3 class="s2-hdrs" id="s2-unity-header">Unity</h3>
+            <p class="s2-ptext" id="s2-unity-text">Ensuring peace of mind for all our users, share only what you want. You are in full control of yourself with us.</p>
+          </article>
+        </div>
+
+        <div id="s2-div2">
+          <article id="s2-article2">
+            <img  id="priv-icon" src="./assets/Vector2.png" alt="privacy" />          
+            <h3 class="s2-hdrs" id="s2-privacy-header">Privacy</h3>
+            <p class="s2-ptext" id="s2-privacy-text">With limitless privacy toggle functionality, we will only ever use your data to provide the best experience for you.</p>
+          </article>
+        </div>
+
+        <div id="s2-div3">
+          <article id="s2-article3">
+            <img  id="pol-icon" src="./assets/Vector3.png" alt="policy" />          
+            <h3 class="s2-hdrs" id="s2-policy-header">Policy</h3>
+            <p class="s2-ptext" id="s2-policy-text">We will always notify you of any changes affecting you, and will never breach our promise of a clear, open network.</p>
+          </article>
+        </div>
+
+      </div>
+    
+ </section>
+
+
+<!--                                                                          -->
+<!--      Footer of page contains general info links and copyright notice     -->
+<!--                                                                          -->
+
+ <footer id="footer">
+
+   <div id="f-div">
+
+     <div id="f-span-div">
+      <span id="f-span">FakeBook</span>
+     </div>
+    
+     <div id="f-flexbox">         <!-- use flexbox for links for layout change at higher resolutions  -->
+       <a href="">Get Started</a> <!-- links are not in use for this version -->
+       <a href="">About</a>
+       <a href="">Jobs</a>
+       <a href="">Help</a>
+       <a href="">Privacy Policy</a>
+       <a href="">Cookies Policy</a>
+     </div>
+
+     <div id="f-copy-div">
+       <span id="f-copyright">© FakeBook 2022</span>
+     </div>
+
+   </div>
+ </footer>
+
+</body>
+</html>     <!-- end of html Figma document  -->

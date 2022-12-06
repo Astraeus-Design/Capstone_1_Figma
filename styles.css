@@ -1,0 +1,707 @@
+/***********************************************************************************************/
+/*                                                                                             */
+/*           CSS styles file for Figma Capstone Project December 2022 author: M Foster         */
+/*                                                                                             */
+/***********************************************************************************************/
+
+/* general settings for page */
+
+
+body{
+    width:100%;  /* inherit width from html parent */
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/***********************************************************************************************/
+/*          Styles for main header section - up to resolution 768px( mobile first )            */
+/***********************************************************************************************/
+
+#Page-header{
+
+    margin:0;
+    height:852px;                   /* mobile page height */
+    background-color: #29182e;
+}
+
+#div-main-title{                   /* main title block centred */
+    width:100%;
+    margin: 0 auto 0 auto;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+#Main-Title{                     /* main title font styles */ 
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+color: #F14C36;
+
+}
+
+#Main-heading{                /* main heading font styles and fotmatting  */
+    
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+margin: 205px auto 0 auto;
+color: #F6F7F1;
+
+
+}
+
+#header-text{               /* main screen text paragraph styles */
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+width: 63%; 
+margin: 25px auto 0px auto;
+
+color: #F6F7F1;
+
+
+}
+
+#Start-div{            /*  this div represents a "button" like area with contained text */
+
+display:flex;
+align-items: center;
+justify-content: center;
+width: 250px;
+height: 60px;
+margin: 40px auto 0 auto;
+background: #F14C36;
+border-radius: 50px;
+
+}
+
+#Start-button{       /* text styles for "button" like screen area */
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #F6F7F1;
+
+
+}
+
+#RC-geek-image{
+    display:none;   /* div with image only shown at higher resolution > 992px */
+}
+
+
+/*****************************************************************/
+/*                                                               */
+/*       Styles for first section content of page                */
+/*                                                               */
+/*****************************************************************/
+
+#section-one{
+
+    height:852px;                  /* as above setting page height for mobile device */
+    background-color: #f6f7f1;
+}
+
+
+#mobile-image{     /* mobile phone image central to page */
+
+display:block;
+width: 293px;
+margin: 0px auto;
+padding: 44px 0 0 0;
+
+
+}
+
+#section-one-content{         /* formatting screen text  */
+
+    text-align:center;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+#rainbow-title{        /* this is a main title with multicoloured text via spans */
+
+
+width: 343px;
+height: 60px;
+padding: 25px 0 0 0;
+margin: 0 auto 25px auto;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align:center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #29182E;
+
+
+}
+
+#section-one-text{          /* general marketing text styling */
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+width: 343px;
+height: 60px;
+padding: 15px 0 0 0;
+margin: 0 auto 0 auto;
+
+color: #29182E;
+
+
+}
+
+#red-text{                  /* styling to set colour segments of text */
+    color:#f14c36;
+    padding-left: 0.2em;
+}
+
+#green-text{
+    color:#436b2c;
+    padding-left: 0.2em;
+}
+
+
+/***************************************************************/
+/*                                                             */
+/*         Section two styles                                  */
+/*                                                             */
+/***************************************************************/
+
+#section-two{
+
+    height:852px;                /* as above setting mobile device page height */
+    background-color: #f6f7f1;
+}
+
+
+#s2-flexbox{                   /* flexbox displays screen divs in column format on smaller screen */
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 87%;
+    margin: 0 auto 0 auto;
+
+}
+
+#s2-heading{               /* general styling for section page header */
+    /* h2 */
+
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+width: 350px;
+margin: 0 auto 0 auto;
+padding: 44px 0 0 0;
+
+
+color: #29182E;
+
+
+}
+
+
+#uni-icon,#priv-icon,#pol-icon{     /* styling for the icons, these are png files */
+
+ 
+    display:block;
+    width: 40px;
+    margin: 0px auto;
+    padding: 50px 0 0 0;
+
+    
+}
+
+
+.s2-hdrs{                 /* styling for small text block headers */
+
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+width: 243px;
+margin: 0 auto 0 auto;
+padding: 14px 0 0 0;
+
+
+}
+
+.s2-ptext{               /* styling for small text paragraphs accompanying each icon block */
+
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align:justify;
+width:63%;
+margin: 0 auto 0 auto;
+padding: 10px 0 0 0;
+
+}
+
+
+#s2-unity-header,#s2-unity-text{   /* set individual font colours of text separately to main font settings  */
+    color:#F14C36;
+}
+
+#s2-privacy-header,#s2-privacy-text{
+    color:#436B2C;
+}
+
+#s2-policy-header,#s2-policy-text{
+    color:#ECB20D;
+}
+
+
+
+/*****************************************************************/
+/*                                                               */
+/*       Styles for page footer section                          */
+/*                                                               */
+/*****************************************************************/
+
+footer{
+
+    height:450px;                /* smaller footer section for mobile devices */
+    background-color: #29182e;
+}
+
+
+#f-span-div{                   
+
+    width:100%;
+    margin: 0 auto 0 auto;
+    padding: 50px 0 50px 0;
+    text-align: center;
+  
+}
+
+
+#f-span{                /* styling for footer title */
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #F14C36;
+
+
+}
+
+
+#f-flexbox           /* flexbox to display anchor links in column form on mobile device */
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+a{                           /* styling for anchor links of footer */
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-decoration: none;
+padding: 0 0 5px 0;
+color: #ECB20D;
+
+
+}
+
+#f-copy-div{              /* footer copyright notice styling */
+
+    width:100%;
+    text-align:center;
+    padding: 50px 0 0 0;
+
+}
+
+
+#f-copyright{
+
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #F6F7F1;
+
+
+}
+
+/*********************************************************************************************/
+/*                                                                                           */
+/*        Media query section for a responsive site, breakpoints 768px and 992px             */
+/*                                                                                           */
+/*********************************************************************************************/
+
+
+/*****************************************************************/
+/*                                                               */
+/*     Style changes for Header media query break at 768px       */
+/*                                                               */
+/*****************************************************************/
+
+@media screen and (min-width:768px){
+
+#Page-header{                /* set main page as relative to allow static placement of items */
+
+    position:relative;
+    width:100%;
+    height:768px;
+}
+
+#header-text-block{         
+    position:absolute;
+    top:352px;
+    left:80px;
+    width:100%;
+}
+
+#div-main-title{               /* placement of fakebook title on larger screens */
+    position:absolute;
+    top:44px;
+    left:60px;
+    width:214px;
+    height:60px;
+    line-height: 60px;
+    margin: 0;
+    padding:0 0 10px 0;
+}
+
+#Start-div{                  /* placement of "button" style div and text */
+    position:absolute;
+    right:66px;
+    top:44px;
+    width:250px;
+    height:60px;
+    padding:0;
+    margin:0;
+}
+
+#div-main-header{               
+
+    padding:0;
+    width:100%;
+}
+
+#Main-heading{                   /* changes to font styling for larger screen  */
+    margin:0 0 25px 0;
+    width:100%;
+    height:50px;
+    text-align: left;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+#div-header-text p{
+    width:650px;
+    height:50px;
+    text-align: left;
+    
+    margin:0;
+}
+
+}
+
+/* only bring image onto screen above 992px width due to space constraints*/
+
+@media screen and (min-width:992px){
+
+#RC-geek-image{            /* quite large main screen image  */
+    position:absolute;
+    display:block;
+    bottom:0;
+    left:888px;
+    margin: 0;
+    
+    height:519px;
+    width:285px;
+    
+}
+
+#geek-cartoon{              /* image embedded into RC-geek-image div above */
+    display: inline-block;
+    width:100%;
+    height:100%;
+    
+}
+
+
+} /* end of header page media queries */
+
+/*****************************************************************/
+/*                                                               */
+/*     Style changes for Section One media query break at 768px  */
+/*                                                               */
+/*****************************************************************/
+
+@media screen and ( min-width:768px ){
+
+#section-one{
+
+    height:768px;
+    width:100%;
+}
+
+
+#mobile-image{       /* slight change in image sizer for larger devices */
+
+
+width: 338px;
+margin: 0;
+padding: 44px 0 0 0;
+
+
+}
+
+#s1-flexbox{                 /* use flexbox to flip screen elements from vertical axis to horizontal */
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items:center;
+    justify-content:space-between;
+    width:100%;
+    margin: 0 100px 0 100px; 
+      
+}
+
+#section-one-content{      /* required text formatting for div container for larger new screen size */
+
+
+    width: 100%;
+    text-align: right;
+    padding: 0 0 0 158px;
+
+}
+
+#rainbow-title{             /* font sizing changes and text formatting    */
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 50px;
+text-align:right;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+width: 650px;
+height:100px;
+padding:0;
+margin:0;
+color: #29182E;
+
+
+}
+
+#section-one-text{        /* text formatting of marketing info on page */
+
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: right;
+width: 650px;
+padding: 40px 0 0 0;
+margin: 0;
+
+color: #29182E;
+
+
+}
+
+
+}    /* end of Section One media queries    */
+
+
+
+
+
+/*****************************************************************/
+/*                                                               */
+/*     Style changes for Section Two media query break at 768px  */
+/*                                                               */
+/*****************************************************************/
+
+@media screen and ( min-width:768px ){
+
+#section-two{                /* set page height for larger device   */
+
+    height:768px;
+    background-color: #f6f7f1;
+}
+
+
+#s2-flexbox{             /*   use flexbox to switch screen elements from vertical orientaion to horizontal */
+
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:space-around;
+    width: 100%;
+    margin: 0 auto 0 auto;
+
+}
+
+#s2-heading{                /* change to header text formatting and font size */
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+width: 100%;
+margin: 0 auto 0 auto;
+padding: 174px 0 105px 0;
+
+
+}
+
+#uni-icon,#priv-icon,#pol-icon{      /* styling for the icons, increase in size on larger screens */
+
+ 
+    display:block;
+    width: 53px;
+    margin: 0px auto;
+    padding: 50px 0 0 0;
+   
+}
+
+
+.s2-hdrs{                 /* general font style changes to smaller item headers of section */
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+width: 100%;
+margin: 0 auto 0 auto;
+padding: 14px 0 0 0;
+
+
+
+}
+
+.s2-ptext{                  /* page paragraph text font style changes for larger screens */
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+width: 250px;
+padding: 10px 0 0 0;
+
+
+}
+
+
+}    /* end of section two media query styles   */
+
+
+/*****************************************************************/
+/*                                                               */
+/*     Style changes for footer media query break at 768px       */
+/*                                                               */
+/*****************************************************************/
+
+@media screen and ( min-width:768px){
+
+footer{
+
+    height:296px;
+    background-color: #29182e;
+}
+
+
+
+#f-flexbox
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+
+#f-copy-div{
+
+    width:100%;
+
+}
+
+
+
+}   /* end of footer media query min-width 768px     */
