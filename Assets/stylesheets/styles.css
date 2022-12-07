@@ -18,9 +18,9 @@ body{
 }
 
 
-/***********************************************************************************************/
-/*          Styles for main header section - up to resolution 768px( mobile first )            */
-/***********************************************************************************************/
+/****************************************************************************************************/
+/*          Styles for main header section - up to resolution 834px( mobile first design- portrait) */
+/****************************************************************************************************/
 
 #Page-header{
 
@@ -390,15 +390,15 @@ a{                           /* styling for anchor links of footer */
 
 /*********************************************************************************************/
 /*                                                                                           */
-/*        Media query section for a responsive site, breakpoints 768px,834px and 1200px             */
-/*                                                                                           */
+/*        Media query section for a responsive site, breakpoints 834px and 1200px            */
+/*                             ( tablet and laptop )                                         */
 /*********************************************************************************************/
 
 
 
 /*****************************************************************/
 /*                                                               */
-/*     Style changes for Section Two media query break at 768px  */
+/*     Style changes for Section Two media query break at 834px  */
 /*                                                               */
 /*****************************************************************/
 
