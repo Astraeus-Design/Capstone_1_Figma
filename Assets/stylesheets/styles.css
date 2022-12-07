@@ -38,73 +38,73 @@ body{
 
 #Main-Title{                     /* main title font styles */ 
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 40px;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-color: #F14C36;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #F14C36;
 
 }
 
 #Main-heading{                /* main heading font styles and fotmatting  */
     
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 48px;
-text-align: center;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-margin: 205px auto 0 auto;
-color: #F6F7F1;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 205px auto 0 auto;
+    color: #F6F7F1;
 
 
 }
 
 #header-text{               /* main screen text paragraph styles */
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-text-align: center;
-width: 63%; 
-margin: 25px auto 0px auto;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    width: 63%; 
+    margin: 25px auto 0px auto;
 
-color: #F6F7F1;
+    color: #F6F7F1;
 
 
 }
 
 #Start-div{            /*  this div represents a "button" like area with contained text */
 
-display:flex;
-align-items: center;
-justify-content: center;
-width: 250px;
-height: 60px;
-margin: 40px auto 0 auto;
-background: #F14C36;
-border-radius: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 60px;
+    margin: 40px auto 0 auto;
+    background: #F14C36;
+    border-radius: 50px;
 
 }
 
 #Start-button{       /* text styles for "button" like screen area */
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 20px;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
 
-color: #F6F7F1;
+    color: #F6F7F1;
 
 
 }
@@ -129,10 +129,10 @@ color: #F6F7F1;
 
 #mobile-image{     /* mobile phone image central to page */
 
-display:block;
-width: 293px;
-margin: 0px auto;
-padding: 44px 0 0 0;
+    display:block;
+    width: 293px;
+    margin: 0px auto;
+    padding: 44px 0 0 0;
 
 
 }
@@ -140,45 +140,45 @@ padding: 44px 0 0 0;
 #section-one-content{         /* formatting screen text  */
 
     text-align:center;
-    width: 100%;
+    width: fit-content;
     margin: 0 auto 0 auto;
 }
 
 #rainbow-title{        /* this is a main title with multicoloured text via spans */
 
 
-width: 343px;
-height: 60px;
-padding: 25px 0 0 0;
-margin: 0 auto 25px auto;
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 30px;
-text-align:center;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+    width: 343px;
+    height: 60px;
+    padding: 25px 0 0 0;
+    margin: 0 auto 25px auto;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align:center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
 
-color: #29182E;
+    color: #29182E;
 
 
 }
 
 #section-one-text{          /* general marketing text styling */
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-width: 343px;
-height: 60px;
-padding: 15px 0 0 0;
-margin: 0 auto 0 auto;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 343px;
+    height: 60px;
+    padding: 15px 0 0 0;
+    margin: 0 auto 0 auto;
 
-color: #29182E;
+    color: #29182E;
 
 
 }
@@ -221,20 +221,20 @@ color: #29182E;
     /* h2 */
 
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 30px;
-text-align: center;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-width: 350px;
-margin: 0 auto 0 auto;
-padding: 44px 0 0 0;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    width: 350px;
+    margin: 0 auto 0 auto;
+    padding: 44px 0 0 0;
 
 
-color: #29182E;
+    color: #29182E;
 
 
 }
@@ -255,17 +255,17 @@ color: #29182E;
 .s2-hdrs{                 /* styling for small text block headers */
 
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-width: 243px;
-margin: 0 auto 0 auto;
-padding: 14px 0 0 0;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    width: 243px;
+    margin: 0 auto 0 auto;
+    padding: 14px 0 0 0;
 
 
 }
@@ -273,15 +273,15 @@ padding: 14px 0 0 0;
 .s2-ptext{               /* styling for small text paragraphs accompanying each icon block */
 
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-text-align:justify;
-width:63%;
-margin: 0 auto 0 auto;
-padding: 10px 0 0 0;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align:justify;
+    width:63%;
+    margin: 0 auto 0 auto;
+    padding: 10px 0 0 0;
 
 }
 
@@ -325,15 +325,15 @@ footer{
 
 #f-span{                /* styling for footer title */
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 40px;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
 
-color: #F14C36;
+    color: #F14C36;
 
 
 }
@@ -349,16 +349,16 @@ color: #F14C36;
 
 a{                           /* styling for anchor links of footer */
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 25px;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-text-decoration: none;
-padding: 0 0 5px 0;
-color: #ECB20D;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 0 5px 0;
+    color: #ECB20D;
 
 
 }
@@ -375,33 +375,125 @@ color: #ECB20D;
 #f-copyright{
 
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 25px;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
 
-color: #F6F7F1;
+    color: #F6F7F1;
 
 
 }
 
 /*********************************************************************************************/
 /*                                                                                           */
-/*        Media query section for a responsive site, breakpoints 768px and 992px             */
+/*        Media query section for a responsive site, breakpoints 768px,834px and 1200px             */
 /*                                                                                           */
 /*********************************************************************************************/
 
 
+
 /*****************************************************************/
 /*                                                               */
-/*     Style changes for Header media query break at 768px       */
+/*     Style changes for Section Two media query break at 768px  */
 /*                                                               */
 /*****************************************************************/
 
-@media screen and (min-width:768px){
+@media screen and ( min-width:834px ){
+
+    #section-two{                /* set page height for larger device   */
+    
+        height:768px;
+        background-color: #f6f7f1;
+    }
+    
+    
+    #s2-flexbox{             /*   use flexbox to switch screen elements from vertical orientaion to horizontal */
+    
+        display:flex;
+        flex-direction: row;
+        align-items:flex-start;
+        justify-content:space-around;
+        width: 100%;
+        margin: 0 auto 0 auto;
+    
+    }
+    
+    #s2-heading{                /* change to header text formatting and font size */
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 174px 0 105px 0;
+    
+    
+    }
+    
+    #uni-icon,#priv-icon,#pol-icon{      /* styling for the icons, increase in size on larger screens */
+    
+     
+        display:block;
+        width: 53px;
+        margin: 0px auto;
+        padding: 50px 0 0 0;
+       
+    }
+    
+    
+    .s2-hdrs{                 /* general font style changes to smaller item headers of section */
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 14px 0 0 0;
+    
+    
+    
+    }
+    
+    .s2-ptext{                  /* page paragraph text font style changes for larger screens */
+    
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        width: 250px;
+        padding: 10px 0 0 0;
+    
+    
+    }
+    
+    
+    }    /* end of section two media query styles   */
+    
+    
+
+/****************************************************************************/
+/*                                                                          */
+/*     Style changes for Header media query break at 834px and 1200px       */
+/*                                                                          */
+/****************************************************************************/
+
+@media screen and (min-width:834px){
 
 #Page-header{                /* set main page as relative to allow static placement of items */
 
@@ -410,12 +502,12 @@ color: #F6F7F1;
     height:768px;
 }
 
-#header-text-block{         
-    position:absolute;
-    top:352px;
-    left:80px;
-    width:100%;
+#header-text-block{
+
+    margin:0 auto 0 auto;
+    padding:352px 0 0 0;
 }
+
 
 #div-main-title{               /* placement of fakebook title on larger screens */
     position:absolute;
@@ -448,31 +540,29 @@ color: #F6F7F1;
     margin:0 0 25px 0;
     width:100%;
     height:50px;
-    text-align: left;
-    font-size: 48px;
-    line-height: 48px;
-    font-weight: 500;
+    text-align: center;
+    
 }
 
 #div-header-text p{
-    width:650px;
+    width:65%;
     height:50px;
-    text-align: left;
+    text-align: center;
     
-    margin:0;
+    
 }
 
 }
 
-/* only bring image onto screen above 992px width due to space constraints*/
+/* only bring image onto screen above 1200px width due to space constraints and maintaining figma positioning*/
 
-@media screen and (min-width:992px){
+@media screen and (min-width:1200px){
 
 #RC-geek-image{            /* quite large main screen image  */
     position:absolute;
     display:block;
     bottom:0;
-    left:888px;
+    right:150px;  
     margin: 0;
     
     height:519px;
@@ -487,16 +577,38 @@ color: #F6F7F1;
     
 }
 
+#header-text-block{           /* changes to text formatting for larger screen >1200px  */   
+    position:absolute;
+    top:352px;
+    left:80px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#Main-heading{                  
+
+    text-align: left;/*left;*/
+
+}
+
+#div-header-text p{
+     
+    width:650px;
+    text-align: left;/*left;*/
+    margin:0;
+}
+
 
 } /* end of header page media queries */
 
 /*****************************************************************/
 /*                                                               */
-/*     Style changes for Section One media query break at 768px  */
+/*     Style changes for Section One media query break at 1200px  */
 /*                                                               */
 /*****************************************************************/
 
-@media screen and ( min-width:768px ){
+@media screen and ( min-width:1200px ){
 
 #section-one{
 
@@ -505,12 +617,12 @@ color: #F6F7F1;
 }
 
 
-#mobile-image{       /* slight change in image sizer for larger devices */
+#mobile-image{       /* slight change in image sizer for larger devices 1200px upward */
 
 
-width: 338px;
-margin: 0;
-padding: 44px 0 0 0;
+    width: 338px;
+    margin: 0;
+    padding: 44px 0 0 0;
 
 
 }
@@ -521,36 +633,34 @@ padding: 44px 0 0 0;
     flex-direction: row;
     align-items: center;
     justify-items:center;
-    justify-content:space-between;
-    width:100%;
+    justify-content:flex-start;
     margin: 0 100px 0 100px; 
       
 }
 
 #section-one-content{      /* required text formatting for div container for larger new screen size */
 
-
-    width: 100%;
     text-align: right;
     padding: 0 0 0 158px;
-
+    margin: 0 0 0 auto;
+ 
 }
 
 #rainbow-title{             /* font sizing changes and text formatting    */
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 50px;
-text-align:right;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-width: 650px;
-height:100px;
-padding:0;
-margin:0;
-color: #29182E;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align:right;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    width: 650px;
+    height:100px;
+    padding:0;
+    margin:0;
+    color: #29182E;
 
 
 }
@@ -558,17 +668,17 @@ color: #29182E;
 #section-one-text{        /* text formatting of marketing info on page */
 
 
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-text-align: right;
-width: 650px;
-padding: 40px 0 0 0;
-margin: 0;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    width: 650px;
+    padding: 40px 0 0 0;
+    margin: 0;
 
-color: #29182E;
+    color: #29182E;
 
 
 }
@@ -577,131 +687,39 @@ color: #29182E;
 }    /* end of Section One media queries    */
 
 
-
-
-
-/*****************************************************************/
-/*                                                               */
-/*     Style changes for Section Two media query break at 768px  */
-/*                                                               */
-/*****************************************************************/
-
-@media screen and ( min-width:768px ){
-
-#section-two{                /* set page height for larger device   */
-
-    height:768px;
-    background-color: #f6f7f1;
-}
-
-
-#s2-flexbox{             /*   use flexbox to switch screen elements from vertical orientaion to horizontal */
-
-    display:flex;
-    flex-direction: row;
-    align-items:flex-start;
-    justify-content:space-around;
-    width: 100%;
-    margin: 0 auto 0 auto;
-
-}
-
-#s2-heading{                /* change to header text formatting and font size */
-
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 40px;
-text-align: center;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-width: 100%;
-margin: 0 auto 0 auto;
-padding: 174px 0 105px 0;
-
-
-}
-
-#uni-icon,#priv-icon,#pol-icon{      /* styling for the icons, increase in size on larger screens */
-
- 
-    display:block;
-    width: 53px;
-    margin: 0px auto;
-    padding: 50px 0 0 0;
-   
-}
-
-
-.s2-hdrs{                 /* general font style changes to smaller item headers of section */
-
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 40px;
-text-align: center;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-width: 100%;
-margin: 0 auto 0 auto;
-padding: 14px 0 0 0;
-
-
-
-}
-
-.s2-ptext{                  /* page paragraph text font style changes for larger screens */
-
-font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 25px;
-text-align: center;
-width: 250px;
-padding: 10px 0 0 0;
-
-
-}
-
-
-}    /* end of section two media query styles   */
-
-
-/*****************************************************************/
-/*                                                               */
-/*     Style changes for footer media query break at 768px       */
-/*                                                               */
-/*****************************************************************/
-
-@media screen and ( min-width:768px){
-
-footer{
-
-    height:296px;
-    background-color: #29182e;
-}
-
-
-
-#f-flexbox
-{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
+    /*****************************************************************/
+    /*                                                               */
+    /*     Style changes for footer media query break at 1200px      */
+    /*                                                               */
+    /*****************************************************************/
     
-}
+    @media screen and ( min-width:1200px){
+    
+        footer{
+        
+            height:296px;
+            background-color: #29182e;
+        }
+        
+        
+        
+        #f-flexbox
+        {
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:space-around;
+            
+        }
+        
+        
+        #f-copy-div{
+        
+            width:100%;
+        
+        }
+        
+        
+        
+        }   /* end of footer media query min-width 1200px     */
 
-
-#f-copy-div{
-
-    width:100%;
-
-}
-
-
-
-}   /* end of footer media query min-width 768px     */
